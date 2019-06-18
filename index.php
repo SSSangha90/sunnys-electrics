@@ -264,7 +264,7 @@
 	<script src="resources/js/gmaps.js"></script>
     <script src="resources/js/script.js"></script>
     <script
-     src="http://maps.google.com/maps/api/js?key=AIzaSyBo8TDG9fcNU22CPH0BpZXapw887nJIw0Q&callback=initMap" type="text/javascript">
+     src="http://maps.google.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" type="text/javascript">
     </script>
 		
 	<!-- Global site tag (gtag.js) - Google Analytics -->
