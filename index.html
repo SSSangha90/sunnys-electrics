@@ -156,7 +156,7 @@
                 <h2>Happy to hear from you</h2>
             </div>
             <div class="row" id="form">
-                <form class="contact-form">
+                <form class="contact-form" action="https://wh7kb79uag.execute-api.eu-west-2.amazonaws.com/dev/static-site-mailer" method="POST">
 					
                     <div class="row">
 						
@@ -207,6 +207,7 @@
                             <input type="submit" value="Send">
                         </div>
                     </div>
+                    <p id="form-messages"></p>
                 </form>
             </div>
         </section>
@@ -243,6 +244,8 @@
     <script src="vendors/js/jquery.waypoints.min.js"></script>
 	<script src="resources/js/gmaps.js"></script>
     <script src="resources/js/script.js"></script>
+    <script src="resources/js/form.js"></script>
+    <script src="handler.js"></script>
     <script
      src="http://maps.google.com/maps/api/js?key=AIzaSyBo8TDG9fcNU22CPH0BpZXapw887nJIw0Q&callback=initMap" type="text/javascript">
     </script>
