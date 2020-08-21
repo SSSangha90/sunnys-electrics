@@ -1,0 +1,12 @@
+{
+  "name": "static-site-mailer",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "https://github.com/SSSangha90/sunnys-electrics.git",
+  "author": "Sukhveer Sangha",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.738.0",
+    "serverless": "^1.79.0"
+  }
+}
