@@ -364,20 +364,12 @@ textarea {
     background-attachment: fixed;
 }
 
-.form-messages {
+#form-messages {
 	width: 70%;
 	margin: 0 auto;
-	padding: 10px;
+	padding: 20px;
 	border-radius: 3px;
 	margin-bottom: 30px;
-}
-
-.success {
-	background-color: rgba(8, 232, 59, 0.66);
-}
-
-.error{
-	background-color: rgba(239, 11, 11, 0.76);
 }
 
 /*------------Contact form section ------*/
