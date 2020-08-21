@@ -39,7 +39,7 @@ module.exports.staticSiteMailer = (event, context, callback) => {
       statusCode: err ? 500 : 200,
       headers: {
         'Content-Type': 'application/json',
-        'Access-Control-Allow-Origin': 'https://sunnys-electrics.co.uk'
+        'Access-Control-Allow-Origin': 'http://sunnys-electrics.co.uk'
       },
       body: JSON.stringify({
         message: err ? err.message : data,
