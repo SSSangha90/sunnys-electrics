@@ -25,7 +25,7 @@
               form.reset()
               formResponse.innerHTML = "Thanks for the message. I'll be in touch shortly"
           } else {
-              formResponse.innerHTML = "Something went wrong, call me instead"
+              formResponse.innerHTML = "Something went wrong, please call me instead"
           }
       };
     };
