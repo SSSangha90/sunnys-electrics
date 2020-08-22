@@ -95,6 +95,7 @@ $(function(){
 }
 });
 	
+$('#copyrightYear').html(new Date().getFullYear());
 	
 });
     
