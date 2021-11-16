@@ -6,7 +6,7 @@
   "author": "Sukhveer Sangha",
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.738.0",
+    "aws-sdk": "^2.814.0",
     "serverless": "^1.79.0"
   }
 }
