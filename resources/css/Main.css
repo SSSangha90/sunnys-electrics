@@ -362,7 +362,8 @@ text-area {
 }
 
 textarea {
-  height: 100px;
+  max-height: 300px;
+  max-width: 450px;
 }
 
 .section-form {
@@ -544,6 +545,24 @@ section.footer {
     padding-bottom: 10px;
     margin-left: -35%;
   }
+
+  #location {
+    height: 42rem;
+  }
+
+  .location-box {
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 0%;
+
+    > .row {
+      margin-left: -1rem;
+    }
+  }
+
+  .location-box li {
+    padding-left: 0%;
+  }
 }
 
 /*-------small phones up to small tablets --*/
@@ -648,10 +667,8 @@ section.footer {
   }
 
   .location-box {
-    position: relative;
-    width: 100%;
-    height: auto;
-    padding-top: 30px 0;
+    width: 110%;
+    padding: 4rem 0rem;
   }
 
   p.follow {
@@ -688,6 +705,17 @@ section.footer {
     padding-bottom: 10px;
     margin-right: 25%;
     margin-left: -25%;
+  }
+
+  textarea {
+    max-height: 200px;
+    max-width: 300px;
+  }
+
+  .location-box {
+    > .row {
+      padding: 0;
+    }
   }
 }
 
